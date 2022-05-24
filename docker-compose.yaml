@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  ashuapp1:
+    image: ashumobi:appv1 
+    build: . 
+    container_name: ashuc1
+    ports:
+    - "1234:80"
+    restart: always 
